@@ -1,0 +1,2743 @@
+Time resolution is 1 ps
+UVM_INFO D:/App/Vivado/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test regfile_test...
+UVM_INFO D:/App/Vivado/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h3       
+  ReadAddr2  integral             5     'h17      
+  WriteAddr  integral             5     'h9       
+  WriteData  integral             32    'hc77644d4
+  ReadData1  integral             32    'h3       
+  ReadData2  integral             32    'h17      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @876      
+  ReadAddr1   integral             5     'h3       
+  ReadAddr2   integral             5     'h17      
+  WriteAddr   integral             5     'h9       
+  WriteData   integral             32    'hc77644d4
+  ReadData1   integral             32    'h3       
+  ReadData2   integral             32    'h17      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    0         
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 35000: uvm_test_top.e0.sb0 [SCOREBOARD]          3,          3,         23 ,        23
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 35000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h10      
+  ReadAddr2  integral             5     'h4       
+  WriteAddr  integral             5     'h1f      
+  WriteData  integral             32    'he812e556
+  ReadData1  integral             32    'h10      
+  ReadData2  integral             32    'h4       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @889      
+  ReadAddr1   integral             5     'h10      
+  ReadAddr2   integral             5     'h4       
+  WriteAddr   integral             5     'h1f      
+  WriteData   integral             32    'he812e556
+  ReadData1   integral             32    'h10      
+  ReadData2   integral             32    'h4       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    35000     
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 55000: uvm_test_top.e0.sb0 [SCOREBOARD]         16,         16,          4 ,         4
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 55000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h0       
+  ReadAddr2  integral             5     'h1a      
+  WriteAddr  integral             5     'h9       
+  WriteData  integral             32    'he1a3afef
+  ReadData1  integral             32    'h0       
+  ReadData2  integral             32    'h1a      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @901      
+  ReadAddr1   integral             5     'h0       
+  ReadAddr2   integral             5     'h1a      
+  WriteAddr   integral             5     'h9       
+  WriteData   integral             32    'he1a3afef
+  ReadData1   integral             32    'h0       
+  ReadData2   integral             32    'h1a      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    55000     
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 75000: uvm_test_top.e0.sb0 [SCOREBOARD]          0,          0,         26 ,        26
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 75000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h4       
+  ReadAddr2  integral             5     'h1c      
+  WriteAddr  integral             5     'h19      
+  WriteData  integral             32    'h150ac8d6
+  ReadData1  integral             32    'h4       
+  ReadData2  integral             32    'h1c      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @913      
+  ReadAddr1   integral             5     'h4       
+  ReadAddr2   integral             5     'h1c      
+  WriteAddr   integral             5     'h19      
+  WriteData   integral             32    'h150ac8d6
+  ReadData1   integral             32    'h4       
+  ReadData2   integral             32    'h1c      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    75000     
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 95000: uvm_test_top.e0.sb0 [SCOREBOARD]          4,          4,         28 ,        28
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 95000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'he       
+  ReadAddr2  integral             5     'h5       
+  WriteAddr  integral             5     'h16      
+  WriteData  integral             32    'hdb542689
+  ReadData1  integral             32    'he       
+  ReadData2  integral             32    'h5       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @925      
+  ReadAddr1   integral             5     'he       
+  ReadAddr2   integral             5     'h5       
+  WriteAddr   integral             5     'h16      
+  WriteData   integral             32    'hdb542689
+  ReadData1   integral             32    'he       
+  ReadData2   integral             32    'h5       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    95000     
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 115000: uvm_test_top.e0.sb0 [SCOREBOARD]         14,         14,          5 ,         5
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 115000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1e      
+  ReadAddr2  integral             5     'h12      
+  WriteAddr  integral             5     'h7       
+  WriteData  integral             32    'hbb647b2d
+  ReadData1  integral             32    'h1e      
+  ReadData2  integral             32    'h12      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @937      
+  ReadAddr1   integral             5     'h1e      
+  ReadAddr2   integral             5     'h12      
+  WriteAddr   integral             5     'h7       
+  WriteData   integral             32    'hbb647b2d
+  ReadData1   integral             32    'h1e      
+  ReadData2   integral             32    'h12      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    115000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 135000: uvm_test_top.e0.sb0 [SCOREBOARD]         30,         30,         18 ,        18
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 135000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1d      
+  ReadAddr2  integral             5     'h1c      
+  WriteAddr  integral             5     'h10      
+  WriteData  integral             32    'h3ec7450d
+  ReadData1  integral             32    'h1d      
+  ReadData2  integral             32    'h1c      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @949      
+  ReadAddr1   integral             5     'h1d      
+  ReadAddr2   integral             5     'h1c      
+  WriteAddr   integral             5     'h10      
+  WriteData   integral             32    'h3ec7450d
+  ReadData1   integral             32    'h1d      
+  ReadData2   integral             32    'h1c      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    135000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 155000: uvm_test_top.e0.sb0 [SCOREBOARD]         29,         29,         28 ,        28
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 155000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1c      
+  ReadAddr2  integral             5     'hf       
+  WriteAddr  integral             5     'h4       
+  WriteData  integral             32    'ha0a2276d
+  ReadData1  integral             32    'h1c      
+  ReadData2  integral             32    'hf       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @961      
+  ReadAddr1   integral             5     'h1c      
+  ReadAddr2   integral             5     'hf       
+  WriteAddr   integral             5     'h4       
+  WriteData   integral             32    'ha0a2276d
+  ReadData1   integral             32    'h1c      
+  ReadData2   integral             32    'hf       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    155000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 175000: uvm_test_top.e0.sb0 [SCOREBOARD]         28,         28,         15 ,        15
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 175000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1f      
+  ReadAddr2  integral             5     'hc       
+  WriteAddr  integral             5     'h1d      
+  WriteData  integral             32    'hd525e7b3
+  ReadData1  integral             32    'h0       
+  ReadData2  integral             32    'hc       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @973      
+  ReadAddr1   integral             5     'h1f      
+  ReadAddr2   integral             5     'hc       
+  WriteAddr   integral             5     'h1d      
+  WriteData   integral             32    'hd525e7b3
+  ReadData1   integral             32    'h0       
+  ReadData2   integral             32    'hc       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    175000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 195000: uvm_test_top.e0.sb0 [SCOREBOARD]          0,          0,         12 ,        12
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 195000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h3       
+  ReadAddr2  integral             5     'h1a      
+  WriteAddr  integral             5     'h9       
+  WriteData  integral             32    'ha0cf6736
+  ReadData1  integral             32    'h3       
+  ReadData2  integral             32    'h1a      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @985      
+  ReadAddr1   integral             5     'h3       
+  ReadAddr2   integral             5     'h1a      
+  WriteAddr   integral             5     'h9       
+  WriteData   integral             32    'ha0cf6736
+  ReadData1   integral             32    'h3       
+  ReadData2   integral             32    'h1a      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    195000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 215000: uvm_test_top.e0.sb0 [SCOREBOARD]          3,          3,         26 ,        26
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 215000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h15      
+  ReadAddr2  integral             5     'h17      
+  WriteAddr  integral             5     'hc       
+  WriteData  integral             32    'ha8f31bff
+  ReadData1  integral             32    'h15      
+  ReadData2  integral             32    'h17      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @997      
+  ReadAddr1   integral             5     'h15      
+  ReadAddr2   integral             5     'h17      
+  WriteAddr   integral             5     'hc       
+  WriteData   integral             32    'ha8f31bff
+  ReadData1   integral             32    'h15      
+  ReadData2   integral             32    'h17      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    215000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 235000: uvm_test_top.e0.sb0 [SCOREBOARD]         21,         21,         23 ,        23
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 235000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h10      
+  ReadAddr2  integral             5     'h19      
+  WriteAddr  integral             5     'h8       
+  WriteData  integral             32    'h2abb0802
+  ReadData1  integral             32    'h10      
+  ReadData2  integral             32    'h19      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1009     
+  ReadAddr1   integral             5     'h10      
+  ReadAddr2   integral             5     'h19      
+  WriteAddr   integral             5     'h8       
+  WriteData   integral             32    'h2abb0802
+  ReadData1   integral             32    'h10      
+  ReadData2   integral             32    'h19      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    235000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 255000: uvm_test_top.e0.sb0 [SCOREBOARD]         16,         16,         25 ,        25
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 255000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+-------------------------------------------------
+Name         Type                 Size  Value    
+-------------------------------------------------
+act_tran     regfile_transaction  -     @592     
+  ReadAddr1  integral             5     'he      
+  ReadAddr2  integral             5     'h1e     
+  WriteAddr  integral             5     'h5      
+  WriteData  integral             32    'h298a687
+  ReadData1  integral             32    'he      
+  ReadData2  integral             32    'h1e     
+  RegWrite   integral             1     'h1      
+-------------------------------------------------
+--------------------------------------------------
+Name          Type                 Size  Value    
+--------------------------------------------------
+req           regfile_transaction  -     @1021    
+  ReadAddr1   integral             5     'he      
+  ReadAddr2   integral             5     'h1e     
+  WriteAddr   integral             5     'h5      
+  WriteData   integral             32    'h298a687
+  ReadData1   integral             32    'he      
+  ReadData2   integral             32    'h1e     
+  RegWrite    integral             1     'h1      
+  begin_time  time                 64    255000   
+--------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 275000: uvm_test_top.e0.sb0 [SCOREBOARD]         14,         14,         30 ,        30
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 275000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1f      
+  ReadAddr2  integral             5     'h12      
+  WriteAddr  integral             5     'h1b      
+  WriteData  integral             32    'h1affbe8e
+  ReadData1  integral             32    'h0       
+  ReadData2  integral             32    'h12      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1033     
+  ReadAddr1   integral             5     'h1f      
+  ReadAddr2   integral             5     'h12      
+  WriteAddr   integral             5     'h1b      
+  WriteData   integral             32    'h1affbe8e
+  ReadData1   integral             32    'h0       
+  ReadData2   integral             32    'h12      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    275000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 295000: uvm_test_top.e0.sb0 [SCOREBOARD]          0,          0,         18 ,        18
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 295000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h9       
+  ReadAddr2  integral             5     'h12      
+  WriteAddr  integral             5     'hc       
+  WriteData  integral             32    'hd027be2c
+  ReadData1  integral             32    'h9       
+  ReadData2  integral             32    'h12      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1045     
+  ReadAddr1   integral             5     'h9       
+  ReadAddr2   integral             5     'h12      
+  WriteAddr   integral             5     'hc       
+  WriteData   integral             32    'hd027be2c
+  ReadData1   integral             32    'h9       
+  ReadData2   integral             32    'h12      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    295000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 315000: uvm_test_top.e0.sb0 [SCOREBOARD]          9,          9,         18 ,        18
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 315000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'ha       
+  ReadAddr2  integral             5     'h0       
+  WriteAddr  integral             5     'h7       
+  WriteData  integral             32    'hda3e7093
+  ReadData1  integral             32    'ha       
+  ReadData2  integral             32    'h0       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1057     
+  ReadAddr1   integral             5     'ha       
+  ReadAddr2   integral             5     'h0       
+  WriteAddr   integral             5     'h7       
+  WriteData   integral             32    'hda3e7093
+  ReadData1   integral             32    'ha       
+  ReadData2   integral             32    'h0       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    315000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 335000: uvm_test_top.e0.sb0 [SCOREBOARD]         10,         10,          0 ,         0
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 335000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hf       
+  ReadAddr2  integral             5     'h1b      
+  WriteAddr  integral             5     'h5       
+  WriteData  integral             32    'he6ef8344
+  ReadData1  integral             32    'hf       
+  ReadData2  integral             32    'h1b      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1069     
+  ReadAddr1   integral             5     'hf       
+  ReadAddr2   integral             5     'h1b      
+  WriteAddr   integral             5     'h5       
+  WriteData   integral             32    'he6ef8344
+  ReadData1   integral             32    'hf       
+  ReadData2   integral             32    'h1b      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    335000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 355000: uvm_test_top.e0.sb0 [SCOREBOARD]         15,         15,         27 ,        27
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 355000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1       
+  ReadAddr2  integral             5     'hb       
+  WriteAddr  integral             5     'hc       
+  WriteData  integral             32    'hea080e96
+  ReadData1  integral             32    'h1       
+  ReadData2  integral             32    'hb       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1081     
+  ReadAddr1   integral             5     'h1       
+  ReadAddr2   integral             5     'hb       
+  WriteAddr   integral             5     'hc       
+  WriteData   integral             32    'hea080e96
+  ReadData1   integral             32    'h1       
+  ReadData2   integral             32    'hb       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    355000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 375000: uvm_test_top.e0.sb0 [SCOREBOARD]          1,          1,         11 ,        11
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 375000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'he       
+  ReadAddr2  integral             5     'ha       
+  WriteAddr  integral             5     'h1a      
+  WriteData  integral             32    'ha8a86cab
+  ReadData1  integral             32    'he       
+  ReadData2  integral             32    'ha       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1093     
+  ReadAddr1   integral             5     'he       
+  ReadAddr2   integral             5     'ha       
+  WriteAddr   integral             5     'h1a      
+  WriteData   integral             32    'ha8a86cab
+  ReadData1   integral             32    'he       
+  ReadData2   integral             32    'ha       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    375000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 395000: uvm_test_top.e0.sb0 [SCOREBOARD]         14,         14,         10 ,        10
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 395000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+-------------------------------------------------
+Name         Type                 Size  Value    
+-------------------------------------------------
+act_tran     regfile_transaction  -     @592     
+  ReadAddr1  integral             5     'h11     
+  ReadAddr2  integral             5     'h4      
+  WriteAddr  integral             5     'h6      
+  WriteData  integral             32    'hfe6e2f7
+  ReadData1  integral             32    'h11     
+  ReadData2  integral             32    'h4      
+  RegWrite   integral             1     'h0      
+-------------------------------------------------
+--------------------------------------------------
+Name          Type                 Size  Value    
+--------------------------------------------------
+req           regfile_transaction  -     @1105    
+  ReadAddr1   integral             5     'h11     
+  ReadAddr2   integral             5     'h4      
+  WriteAddr   integral             5     'h6      
+  WriteData   integral             32    'hfe6e2f7
+  ReadData1   integral             32    'h11     
+  ReadData2   integral             32    'h4      
+  RegWrite    integral             1     'h0      
+  begin_time  time                 64    395000   
+--------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 415000: uvm_test_top.e0.sb0 [SCOREBOARD]         17,         17,          4 ,         4
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 415000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hf       
+  ReadAddr2  integral             5     'h1c      
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'hdc71b622
+  ReadData1  integral             32    'hf       
+  ReadData2  integral             32    'h1c      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1117     
+  ReadAddr1   integral             5     'hf       
+  ReadAddr2   integral             5     'h1c      
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'hdc71b622
+  ReadData1   integral             32    'hf       
+  ReadData2   integral             32    'h1c      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    415000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 435000: uvm_test_top.e0.sb0 [SCOREBOARD]         15,         15,         28 ,        28
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 435000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h9       
+  ReadAddr2  integral             5     'h1b      
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'hc2e6ef24
+  ReadData1  integral             32    'h9       
+  ReadData2  integral             32    'h1b      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1129     
+  ReadAddr1   integral             5     'h9       
+  ReadAddr2   integral             5     'h1b      
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'hc2e6ef24
+  ReadData1   integral             32    'h9       
+  ReadData2   integral             32    'h1b      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    435000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 455000: uvm_test_top.e0.sb0 [SCOREBOARD]          9,          9,         27 ,        27
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 455000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h5       
+  WriteAddr  integral             5     'h7       
+  WriteData  integral             32    'h24d43b7d
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h5       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1141     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h5       
+  WriteAddr   integral             5     'h7       
+  WriteData   integral             32    'h24d43b7d
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h5       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    455000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 475000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,          5 ,         5
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 475000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hc       
+  ReadAddr2  integral             5     'h15      
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'h2695d141
+  ReadData1  integral             32    'hc       
+  ReadData2  integral             32    'h15      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1153     
+  ReadAddr1   integral             5     'hc       
+  ReadAddr2   integral             5     'h15      
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'h2695d141
+  ReadData1   integral             32    'hc       
+  ReadData2   integral             32    'h15      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    475000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 495000: uvm_test_top.e0.sb0 [SCOREBOARD]         12,         12,         21 ,        21
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 495000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h9       
+  ReadAddr2  integral             5     'h1a      
+  WriteAddr  integral             5     'h0       
+  WriteData  integral             32    'hcaaed223
+  ReadData1  integral             32    'h9       
+  ReadData2  integral             32    'h1a      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1165     
+  ReadAddr1   integral             5     'h9       
+  ReadAddr2   integral             5     'h1a      
+  WriteAddr   integral             5     'h0       
+  WriteData   integral             32    'hcaaed223
+  ReadData1   integral             32    'h9       
+  ReadData2   integral             32    'h1a      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    495000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 515000: uvm_test_top.e0.sb0 [SCOREBOARD]          9,          9,         26 ,        26
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 515000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h15      
+  ReadAddr2  integral             5     'h1d      
+  WriteAddr  integral             5     'h15      
+  WriteData  integral             32    'hff58ff60
+  ReadData1  integral             32    'h15      
+  ReadData2  integral             32    'h1d      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1177     
+  ReadAddr1   integral             5     'h15      
+  ReadAddr2   integral             5     'h1d      
+  WriteAddr   integral             5     'h15      
+  WriteData   integral             32    'hff58ff60
+  ReadData1   integral             32    'h15      
+  ReadData2   integral             32    'h1d      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    515000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 535000: uvm_test_top.e0.sb0 [SCOREBOARD]         21,         21,         29 ,        29
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 535000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+-------------------------------------------------
+Name         Type                 Size  Value    
+-------------------------------------------------
+act_tran     regfile_transaction  -     @592     
+  ReadAddr1  integral             5     'h15     
+  ReadAddr2  integral             5     'h0      
+  WriteAddr  integral             5     'ha      
+  WriteData  integral             32    'hbe9cb37
+  ReadData1  integral             32    'h15     
+  ReadData2  integral             32    'h0      
+  RegWrite   integral             1     'h0      
+-------------------------------------------------
+--------------------------------------------------
+Name          Type                 Size  Value    
+--------------------------------------------------
+req           regfile_transaction  -     @1189    
+  ReadAddr1   integral             5     'h15     
+  ReadAddr2   integral             5     'h0      
+  WriteAddr   integral             5     'ha      
+  WriteData   integral             32    'hbe9cb37
+  ReadData1   integral             32    'h15     
+  ReadData2   integral             32    'h0      
+  RegWrite    integral             1     'h0      
+  begin_time  time                 64    535000   
+--------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 555000: uvm_test_top.e0.sb0 [SCOREBOARD]         21,         21,          0 ,         0
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 555000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1b      
+  ReadAddr2  integral             5     'h16      
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'hc66c814f
+  ReadData1  integral             32    'h1b      
+  ReadData2  integral             32    'h16      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1201     
+  ReadAddr1   integral             5     'h1b      
+  ReadAddr2   integral             5     'h16      
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'hc66c814f
+  ReadData1   integral             32    'h1b      
+  ReadData2   integral             32    'h16      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    555000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 575000: uvm_test_top.e0.sb0 [SCOREBOARD]         27,         27,         22 ,        22
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 575000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h0       
+  ReadAddr2  integral             5     'h8       
+  WriteAddr  integral             5     'hd       
+  WriteData  integral             32    'had2e5bf2
+  ReadData1  integral             32    'h0       
+  ReadData2  integral             32    'h8       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1213     
+  ReadAddr1   integral             5     'h0       
+  ReadAddr2   integral             5     'h8       
+  WriteAddr   integral             5     'hd       
+  WriteData   integral             32    'had2e5bf2
+  ReadData1   integral             32    'h0       
+  ReadData2   integral             32    'h8       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    575000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 595000: uvm_test_top.e0.sb0 [SCOREBOARD]          0,          0,          8 ,         8
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 595000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'ha       
+  ReadAddr2  integral             5     'h14      
+  WriteAddr  integral             5     'hd       
+  WriteData  integral             32    'hc0c04727
+  ReadData1  integral             32    'ha       
+  ReadData2  integral             32    'h14      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1225     
+  ReadAddr1   integral             5     'ha       
+  ReadAddr2   integral             5     'h14      
+  WriteAddr   integral             5     'hd       
+  WriteData   integral             32    'hc0c04727
+  ReadData1   integral             32    'ha       
+  ReadData2   integral             32    'h14      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    595000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 615000: uvm_test_top.e0.sb0 [SCOREBOARD]         10,         10,         20 ,        20
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 615000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h11      
+  ReadAddr2  integral             5     'h11      
+  WriteAddr  integral             5     'h4       
+  WriteData  integral             32    'hc122438c
+  ReadData1  integral             32    'h11      
+  ReadData2  integral             32    'h11      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1237     
+  ReadAddr1   integral             5     'h11      
+  ReadAddr2   integral             5     'h11      
+  WriteAddr   integral             5     'h4       
+  WriteData   integral             32    'hc122438c
+  ReadData1   integral             32    'h11      
+  ReadData2   integral             32    'h11      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    615000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 635000: uvm_test_top.e0.sb0 [SCOREBOARD]         17,         17,         17 ,        17
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 635000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h14      
+  ReadAddr2  integral             5     'hc       
+  WriteAddr  integral             5     'h15      
+  WriteData  integral             32    'h34fff615
+  ReadData1  integral             32    'h14      
+  ReadData2  integral             32    'hc       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1249     
+  ReadAddr1   integral             5     'h14      
+  ReadAddr2   integral             5     'hc       
+  WriteAddr   integral             5     'h15      
+  WriteData   integral             32    'h34fff615
+  ReadData1   integral             32    'h14      
+  ReadData2   integral             32    'hc       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    635000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 655000: uvm_test_top.e0.sb0 [SCOREBOARD]         20,         20,         12 ,        12
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 655000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hf       
+  ReadAddr2  integral             5     'h11      
+  WriteAddr  integral             5     'hc       
+  WriteData  integral             32    'heda1371c
+  ReadData1  integral             32    'hf       
+  ReadData2  integral             32    'h11      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1261     
+  ReadAddr1   integral             5     'hf       
+  ReadAddr2   integral             5     'h11      
+  WriteAddr   integral             5     'hc       
+  WriteData   integral             32    'heda1371c
+  ReadData1   integral             32    'hf       
+  ReadData2   integral             32    'h11      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    655000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 675000: uvm_test_top.e0.sb0 [SCOREBOARD]         15,         15,         17 ,        17
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 675000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h19      
+  ReadAddr2  integral             5     'h1a      
+  WriteAddr  integral             5     'h16      
+  WriteData  integral             32    'hc65b46eb
+  ReadData1  integral             32    'h19      
+  ReadData2  integral             32    'h1a      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1273     
+  ReadAddr1   integral             5     'h19      
+  ReadAddr2   integral             5     'h1a      
+  WriteAddr   integral             5     'h16      
+  WriteData   integral             32    'hc65b46eb
+  ReadData1   integral             32    'h19      
+  ReadData2   integral             32    'h1a      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    675000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 695000: uvm_test_top.e0.sb0 [SCOREBOARD]         25,         25,         26 ,        26
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 695000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h15      
+  ReadAddr2  integral             5     'h1c      
+  WriteAddr  integral             5     'hd       
+  WriteData  integral             32    'hc2caddd9
+  ReadData1  integral             32    'h15      
+  ReadData2  integral             32    'h1c      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1285     
+  ReadAddr1   integral             5     'h15      
+  ReadAddr2   integral             5     'h1c      
+  WriteAddr   integral             5     'hd       
+  WriteData   integral             32    'hc2caddd9
+  ReadData1   integral             32    'h15      
+  ReadData2   integral             32    'h1c      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    695000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 715000: uvm_test_top.e0.sb0 [SCOREBOARD]         21,         21,         28 ,        28
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 715000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h3       
+  ReadAddr2  integral             5     'h18      
+  WriteAddr  integral             5     'h1f      
+  WriteData  integral             32    'hbb06a0fb
+  ReadData1  integral             32    'h3       
+  ReadData2  integral             32    'h18      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1297     
+  ReadAddr1   integral             5     'h3       
+  ReadAddr2   integral             5     'h18      
+  WriteAddr   integral             5     'h1f      
+  WriteData   integral             32    'hbb06a0fb
+  ReadData1   integral             32    'h3       
+  ReadData2   integral             32    'h18      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    715000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 735000: uvm_test_top.e0.sb0 [SCOREBOARD]          3,          3,         24 ,        24
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 735000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h10      
+  ReadAddr2  integral             5     'h17      
+  WriteAddr  integral             5     'h18      
+  WriteData  integral             32    'hf07f90f6
+  ReadData1  integral             32    'h10      
+  ReadData2  integral             32    'h17      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1309     
+  ReadAddr1   integral             5     'h10      
+  ReadAddr2   integral             5     'h17      
+  WriteAddr   integral             5     'h18      
+  WriteData   integral             32    'hf07f90f6
+  ReadData1   integral             32    'h10      
+  ReadData2   integral             32    'h17      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    735000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 755000: uvm_test_top.e0.sb0 [SCOREBOARD]         16,         16,         23 ,        23
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 755000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h12      
+  ReadAddr2  integral             5     'hb       
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'hc8eb5599
+  ReadData1  integral             32    'h12      
+  ReadData2  integral             32    'hb       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1321     
+  ReadAddr1   integral             5     'h12      
+  ReadAddr2   integral             5     'hb       
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'hc8eb5599
+  ReadData1   integral             32    'h12      
+  ReadData2   integral             32    'hb       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    755000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 775000: uvm_test_top.e0.sb0 [SCOREBOARD]         18,         18,         11 ,        11
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 775000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h9       
+  ReadAddr2  integral             5     'h14      
+  WriteAddr  integral             5     'h1d      
+  WriteData  integral             32    'h2f1d6052
+  ReadData1  integral             32    'h9       
+  ReadData2  integral             32    'h14      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1333     
+  ReadAddr1   integral             5     'h9       
+  ReadAddr2   integral             5     'h14      
+  WriteAddr   integral             5     'h1d      
+  WriteData   integral             32    'h2f1d6052
+  ReadData1   integral             32    'h9       
+  ReadData2   integral             32    'h14      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    775000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 795000: uvm_test_top.e0.sb0 [SCOREBOARD]          9,          9,         20 ,        20
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 795000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h3       
+  ReadAddr2  integral             5     'h10      
+  WriteAddr  integral             5     'h17      
+  WriteData  integral             32    'hf77bcaf4
+  ReadData1  integral             32    'h3       
+  ReadData2  integral             32    'h10      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1345     
+  ReadAddr1   integral             5     'h3       
+  ReadAddr2   integral             5     'h10      
+  WriteAddr   integral             5     'h17      
+  WriteData   integral             32    'hf77bcaf4
+  ReadData1   integral             32    'h3       
+  ReadData2   integral             32    'h10      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    795000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 815000: uvm_test_top.e0.sb0 [SCOREBOARD]          3,          3,         16 ,        16
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 815000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h18      
+  WriteAddr  integral             5     'h1e      
+  WriteData  integral             32    'h21a2f945
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h18      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1357     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h18      
+  WriteAddr   integral             5     'h1e      
+  WriteData   integral             32    'h21a2f945
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h18      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    815000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 835000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,         24 ,        24
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 835000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h12      
+  ReadAddr2  integral             5     'ha       
+  WriteAddr  integral             5     'h6       
+  WriteData  integral             32    'h36774ad1
+  ReadData1  integral             32    'h12      
+  ReadData2  integral             32    'ha       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1369     
+  ReadAddr1   integral             5     'h12      
+  ReadAddr2   integral             5     'ha       
+  WriteAddr   integral             5     'h6       
+  WriteData   integral             32    'h36774ad1
+  ReadData1   integral             32    'h12      
+  ReadData2   integral             32    'ha       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    835000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 855000: uvm_test_top.e0.sb0 [SCOREBOARD]         18,         18,         10 ,        10
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 855000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h16      
+  ReadAddr2  integral             5     'h1b      
+  WriteAddr  integral             5     'h9       
+  WriteData  integral             32    'ha3b50208
+  ReadData1  integral             32    'h16      
+  ReadData2  integral             32    'h1b      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1381     
+  ReadAddr1   integral             5     'h16      
+  ReadAddr2   integral             5     'h1b      
+  WriteAddr   integral             5     'h9       
+  WriteData   integral             32    'ha3b50208
+  ReadData1   integral             32    'h16      
+  ReadData2   integral             32    'h1b      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    855000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 875000: uvm_test_top.e0.sb0 [SCOREBOARD]         22,         22,         27 ,        27
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 875000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h5       
+  ReadAddr2  integral             5     'h0       
+  WriteAddr  integral             5     'h4       
+  WriteData  integral             32    'hcce86b04
+  ReadData1  integral             32    'h5       
+  ReadData2  integral             32    'h0       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1393     
+  ReadAddr1   integral             5     'h5       
+  ReadAddr2   integral             5     'h0       
+  WriteAddr   integral             5     'h4       
+  WriteData   integral             32    'hcce86b04
+  ReadData1   integral             32    'h5       
+  ReadData2   integral             32    'h0       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    875000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 895000: uvm_test_top.e0.sb0 [SCOREBOARD]          5,          5,          0 ,         0
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 895000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h16      
+  ReadAddr2  integral             5     'h10      
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'he7d50263
+  ReadData1  integral             32    'h16      
+  ReadData2  integral             32    'h10      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1405     
+  ReadAddr1   integral             5     'h16      
+  ReadAddr2   integral             5     'h10      
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'he7d50263
+  ReadData1   integral             32    'h16      
+  ReadData2   integral             32    'h10      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    895000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 915000: uvm_test_top.e0.sb0 [SCOREBOARD]         22,         22,         16 ,        16
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 915000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+-------------------------------------------------
+Name         Type                 Size  Value    
+-------------------------------------------------
+act_tran     regfile_transaction  -     @592     
+  ReadAddr1  integral             5     'h16     
+  ReadAddr2  integral             5     'hc      
+  WriteAddr  integral             5     'h10     
+  WriteData  integral             32    'h867fce6
+  ReadData1  integral             32    'h16     
+  ReadData2  integral             32    'hc      
+  RegWrite   integral             1     'h1      
+-------------------------------------------------
+--------------------------------------------------
+Name          Type                 Size  Value    
+--------------------------------------------------
+req           regfile_transaction  -     @1417    
+  ReadAddr1   integral             5     'h16     
+  ReadAddr2   integral             5     'hc      
+  WriteAddr   integral             5     'h10     
+  WriteData   integral             32    'h867fce6
+  ReadData1   integral             32    'h16     
+  ReadData2   integral             32    'hc      
+  RegWrite    integral             1     'h1      
+  begin_time  time                 64    915000   
+--------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 935000: uvm_test_top.e0.sb0 [SCOREBOARD]         22,         22,         12 ,        12
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 935000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h13      
+  ReadAddr2  integral             5     'h10      
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'h15cb0805
+  ReadData1  integral             32    'h13      
+  ReadData2  integral             32    'h10      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1429     
+  ReadAddr1   integral             5     'h13      
+  ReadAddr2   integral             5     'h10      
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'h15cb0805
+  ReadData1   integral             32    'h13      
+  ReadData2   integral             32    'h10      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    935000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 955000: uvm_test_top.e0.sb0 [SCOREBOARD]         19,         19,         16 ,        16
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 955000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h8       
+  ReadAddr2  integral             5     'hf       
+  WriteAddr  integral             5     'h19      
+  WriteData  integral             32    'hd9cd68fe
+  ReadData1  integral             32    'h8       
+  ReadData2  integral             32    'hf       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1441     
+  ReadAddr1   integral             5     'h8       
+  ReadAddr2   integral             5     'hf       
+  WriteAddr   integral             5     'h19      
+  WriteData   integral             32    'hd9cd68fe
+  ReadData1   integral             32    'h8       
+  ReadData2   integral             32    'hf       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    955000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 975000: uvm_test_top.e0.sb0 [SCOREBOARD]          8,          8,         15 ,        15
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 975000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h6       
+  ReadAddr2  integral             5     'hb       
+  WriteAddr  integral             5     'h7       
+  WriteData  integral             32    'hf70151b2
+  ReadData1  integral             32    'h6       
+  ReadData2  integral             32    'hb       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1453     
+  ReadAddr1   integral             5     'h6       
+  ReadAddr2   integral             5     'hb       
+  WriteAddr   integral             5     'h7       
+  WriteData   integral             32    'hf70151b2
+  ReadData1   integral             32    'h6       
+  ReadData2   integral             32    'hb       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    975000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 995000: uvm_test_top.e0.sb0 [SCOREBOARD]          6,          6,         11 ,        11
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 995000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h4       
+  WriteAddr  integral             5     'h12      
+  WriteData  integral             32    'hd6eb8cae
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h4       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1465     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h4       
+  WriteAddr   integral             5     'h12      
+  WriteData   integral             32    'hd6eb8cae
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h4       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    995000    
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1015000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,          4 ,         4
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1015000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h4       
+  ReadAddr2  integral             5     'h1       
+  WriteAddr  integral             5     'h5       
+  WriteData  integral             32    'he5269d07
+  ReadData1  integral             32    'h4       
+  ReadData2  integral             32    'h1       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1477     
+  ReadAddr1   integral             5     'h4       
+  ReadAddr2   integral             5     'h1       
+  WriteAddr   integral             5     'h5       
+  WriteData   integral             32    'he5269d07
+  ReadData1   integral             32    'h4       
+  ReadData2   integral             32    'h1       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1015000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1035000: uvm_test_top.e0.sb0 [SCOREBOARD]          4,          4,          1 ,         1
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1035000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hf       
+  ReadAddr2  integral             5     'ha       
+  WriteAddr  integral             5     'h1       
+  WriteData  integral             32    'h11dbbf70
+  ReadData1  integral             32    'hf       
+  ReadData2  integral             32    'ha       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1489     
+  ReadAddr1   integral             5     'hf       
+  ReadAddr2   integral             5     'ha       
+  WriteAddr   integral             5     'h1       
+  WriteData   integral             32    'h11dbbf70
+  ReadData1   integral             32    'hf       
+  ReadData2   integral             32    'ha       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1035000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1055000: uvm_test_top.e0.sb0 [SCOREBOARD]         15,         15,         10 ,        10
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1055000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1e      
+  ReadAddr2  integral             5     'he       
+  WriteAddr  integral             5     'h19      
+  WriteData  integral             32    'hd32eb02f
+  ReadData1  integral             32    'h1e      
+  ReadData2  integral             32    'he       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1501     
+  ReadAddr1   integral             5     'h1e      
+  ReadAddr2   integral             5     'he       
+  WriteAddr   integral             5     'h19      
+  WriteData   integral             32    'hd32eb02f
+  ReadData1   integral             32    'h1e      
+  ReadData2   integral             32    'he       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1055000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1075000: uvm_test_top.e0.sb0 [SCOREBOARD]         30,         30,         14 ,        14
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1075000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h16      
+  ReadAddr2  integral             5     'hf       
+  WriteAddr  integral             5     'h16      
+  WriteData  integral             32    'h8fc92442
+  ReadData1  integral             32    'h16      
+  ReadData2  integral             32    'hf       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1513     
+  ReadAddr1   integral             5     'h16      
+  ReadAddr2   integral             5     'hf       
+  WriteAddr   integral             5     'h16      
+  WriteData   integral             32    'h8fc92442
+  ReadData1   integral             32    'h16      
+  ReadData2   integral             32    'hf       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1075000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1095000: uvm_test_top.e0.sb0 [SCOREBOARD]         22,         22,         15 ,        15
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1095000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1d      
+  ReadAddr2  integral             5     'he       
+  WriteAddr  integral             5     'h1b      
+  WriteData  integral             32    'he101666f
+  ReadData1  integral             32    'h1d      
+  ReadData2  integral             32    'he       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1525     
+  ReadAddr1   integral             5     'h1d      
+  ReadAddr2   integral             5     'he       
+  WriteAddr   integral             5     'h1b      
+  WriteData   integral             32    'he101666f
+  ReadData1   integral             32    'h1d      
+  ReadData2   integral             32    'he       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1095000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1115000: uvm_test_top.e0.sb0 [SCOREBOARD]         29,         29,         14 ,        14
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1115000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'hc       
+  WriteAddr  integral             5     'h0       
+  WriteData  integral             32    'hce95c66f
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'hc       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1537     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'hc       
+  WriteAddr   integral             5     'h0       
+  WriteData   integral             32    'hce95c66f
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'hc       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1115000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1135000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,         12 ,        12
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1135000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h10      
+  ReadAddr2  integral             5     'h13      
+  WriteAddr  integral             5     'h19      
+  WriteData  integral             32    'ha7f50b50
+  ReadData1  integral             32    'h10      
+  ReadData2  integral             32    'h13      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1549     
+  ReadAddr1   integral             5     'h10      
+  ReadAddr2   integral             5     'h13      
+  WriteAddr   integral             5     'h19      
+  WriteData   integral             32    'ha7f50b50
+  ReadData1   integral             32    'h10      
+  ReadData2   integral             32    'h13      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1135000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1155000: uvm_test_top.e0.sb0 [SCOREBOARD]         16,         16,         19 ,        19
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1155000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1d      
+  ReadAddr2  integral             5     'h9       
+  WriteAddr  integral             5     'h3       
+  WriteData  integral             32    'hcfdc97d3
+  ReadData1  integral             32    'h1d      
+  ReadData2  integral             32    'h9       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1561     
+  ReadAddr1   integral             5     'h1d      
+  ReadAddr2   integral             5     'h9       
+  WriteAddr   integral             5     'h3       
+  WriteData   integral             32    'hcfdc97d3
+  ReadData1   integral             32    'h1d      
+  ReadData2   integral             32    'h9       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1155000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1175000: uvm_test_top.e0.sb0 [SCOREBOARD]         29,         29,          9 ,         9
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1175000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h5       
+  ReadAddr2  integral             5     'h19      
+  WriteAddr  integral             5     'h1       
+  WriteData  integral             32    'ha62e934b
+  ReadData1  integral             32    'h5       
+  ReadData2  integral             32    'h19      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1573     
+  ReadAddr1   integral             5     'h5       
+  ReadAddr2   integral             5     'h19      
+  WriteAddr   integral             5     'h1       
+  WriteData   integral             32    'ha62e934b
+  ReadData1   integral             32    'h5       
+  ReadData2   integral             32    'h19      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1175000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1195000: uvm_test_top.e0.sb0 [SCOREBOARD]          5,          5,         25 ,        25
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1195000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1a      
+  ReadAddr2  integral             5     'hf       
+  WriteAddr  integral             5     'h8       
+  WriteData  integral             32    'hf1c8a1c9
+  ReadData1  integral             32    'h1a      
+  ReadData2  integral             32    'hf       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1585     
+  ReadAddr1   integral             5     'h1a      
+  ReadAddr2   integral             5     'hf       
+  WriteAddr   integral             5     'h8       
+  WriteData   integral             32    'hf1c8a1c9
+  ReadData1   integral             32    'h1a      
+  ReadData2   integral             32    'hf       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1195000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1215000: uvm_test_top.e0.sb0 [SCOREBOARD]         26,         26,         15 ,        15
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1215000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h0       
+  ReadAddr2  integral             5     'h5       
+  WriteAddr  integral             5     'h13      
+  WriteData  integral             32    'h3194039a
+  ReadData1  integral             32    'h0       
+  ReadData2  integral             32    'h5       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1597     
+  ReadAddr1   integral             5     'h0       
+  ReadAddr2   integral             5     'h5       
+  WriteAddr   integral             5     'h13      
+  WriteData   integral             32    'h3194039a
+  ReadData1   integral             32    'h0       
+  ReadData2   integral             32    'h5       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1215000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1235000: uvm_test_top.e0.sb0 [SCOREBOARD]          0,          0,          5 ,         5
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1235000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h15      
+  ReadAddr2  integral             5     'h12      
+  WriteAddr  integral             5     'h1d      
+  WriteData  integral             32    'hf87f5726
+  ReadData1  integral             32    'h15      
+  ReadData2  integral             32    'h12      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1609     
+  ReadAddr1   integral             5     'h15      
+  ReadAddr2   integral             5     'h12      
+  WriteAddr   integral             5     'h1d      
+  WriteData   integral             32    'hf87f5726
+  ReadData1   integral             32    'h15      
+  ReadData2   integral             32    'h12      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1235000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1255000: uvm_test_top.e0.sb0 [SCOREBOARD]         21,         21,         18 ,        18
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1255000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h16      
+  ReadAddr2  integral             5     'hc       
+  WriteAddr  integral             5     'hf       
+  WriteData  integral             32    'h3a84be4a
+  ReadData1  integral             32    'h16      
+  ReadData2  integral             32    'hc       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1621     
+  ReadAddr1   integral             5     'h16      
+  ReadAddr2   integral             5     'hc       
+  WriteAddr   integral             5     'hf       
+  WriteData   integral             32    'h3a84be4a
+  ReadData1   integral             32    'h16      
+  ReadData2   integral             32    'hc       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1255000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1275000: uvm_test_top.e0.sb0 [SCOREBOARD]         22,         22,         12 ,        12
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1275000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h9       
+  ReadAddr2  integral             5     'h14      
+  WriteAddr  integral             5     'h1c      
+  WriteData  integral             32    'h1df1b41d
+  ReadData1  integral             32    'h9       
+  ReadData2  integral             32    'h14      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1633     
+  ReadAddr1   integral             5     'h9       
+  ReadAddr2   integral             5     'h14      
+  WriteAddr   integral             5     'h1c      
+  WriteData   integral             32    'h1df1b41d
+  ReadData1   integral             32    'h9       
+  ReadData2   integral             32    'h14      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1275000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1295000: uvm_test_top.e0.sb0 [SCOREBOARD]          9,          9,         20 ,        20
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1295000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1e      
+  ReadAddr2  integral             5     'hc       
+  WriteAddr  integral             5     'h5       
+  WriteData  integral             32    'hb4dacfcd
+  ReadData1  integral             32    'h1e      
+  ReadData2  integral             32    'hc       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1645     
+  ReadAddr1   integral             5     'h1e      
+  ReadAddr2   integral             5     'hc       
+  WriteAddr   integral             5     'h5       
+  WriteData   integral             32    'hb4dacfcd
+  ReadData1   integral             32    'h1e      
+  ReadData2   integral             32    'hc       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1295000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1315000: uvm_test_top.e0.sb0 [SCOREBOARD]         30,         30,         12 ,        12
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1315000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h16      
+  ReadAddr2  integral             5     'h15      
+  WriteAddr  integral             5     'ha       
+  WriteData  integral             32    'h293e3d58
+  ReadData1  integral             32    'h16      
+  ReadData2  integral             32    'h15      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1657     
+  ReadAddr1   integral             5     'h16      
+  ReadAddr2   integral             5     'h15      
+  WriteAddr   integral             5     'ha       
+  WriteData   integral             32    'h293e3d58
+  ReadData1   integral             32    'h16      
+  ReadData2   integral             32    'h15      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1315000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1335000: uvm_test_top.e0.sb0 [SCOREBOARD]         22,         22,         21 ,        21
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1335000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1e      
+  ReadAddr2  integral             5     'h13      
+  WriteAddr  integral             5     'h19      
+  WriteData  integral             32    'hdab25d08
+  ReadData1  integral             32    'h1e      
+  ReadData2  integral             32    'h13      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1669     
+  ReadAddr1   integral             5     'h1e      
+  ReadAddr2   integral             5     'h13      
+  WriteAddr   integral             5     'h19      
+  WriteData   integral             32    'hdab25d08
+  ReadData1   integral             32    'h1e      
+  ReadData2   integral             32    'h13      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1335000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1355000: uvm_test_top.e0.sb0 [SCOREBOARD]         30,         30,         19 ,        19
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1355000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h3       
+  ReadAddr2  integral             5     'h10      
+  WriteAddr  integral             5     'h10      
+  WriteData  integral             32    'h89eeff07
+  ReadData1  integral             32    'h3       
+  ReadData2  integral             32    'h10      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1681     
+  ReadAddr1   integral             5     'h3       
+  ReadAddr2   integral             5     'h10      
+  WriteAddr   integral             5     'h10      
+  WriteData   integral             32    'h89eeff07
+  ReadData1   integral             32    'h3       
+  ReadData2   integral             32    'h10      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1355000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1375000: uvm_test_top.e0.sb0 [SCOREBOARD]          3,          3,         16 ,        16
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1375000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h14      
+  ReadAddr2  integral             5     'h11      
+  WriteAddr  integral             5     'h15      
+  WriteData  integral             32    'hca13ab5d
+  ReadData1  integral             32    'h14      
+  ReadData2  integral             32    'h11      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1693     
+  ReadAddr1   integral             5     'h14      
+  ReadAddr2   integral             5     'h11      
+  WriteAddr   integral             5     'h15      
+  WriteData   integral             32    'hca13ab5d
+  ReadData1   integral             32    'h14      
+  ReadData2   integral             32    'h11      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1375000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1395000: uvm_test_top.e0.sb0 [SCOREBOARD]         20,         20,         17 ,        17
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1395000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h9       
+  ReadAddr2  integral             5     'h14      
+  WriteAddr  integral             5     'ha       
+  WriteData  integral             32    'he1cf6114
+  ReadData1  integral             32    'h9       
+  ReadData2  integral             32    'h14      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1705     
+  ReadAddr1   integral             5     'h9       
+  ReadAddr2   integral             5     'h14      
+  WriteAddr   integral             5     'ha       
+  WriteData   integral             32    'he1cf6114
+  ReadData1   integral             32    'h9       
+  ReadData2   integral             32    'h14      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1395000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1415000: uvm_test_top.e0.sb0 [SCOREBOARD]          9,          9,         20 ,        20
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1415000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h2       
+  WriteAddr  integral             5     'h14      
+  WriteData  integral             32    'hf59473a8
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h2       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1717     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h2       
+  WriteAddr   integral             5     'h14      
+  WriteData   integral             32    'hf59473a8
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h2       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1415000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1435000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,          2 ,         2
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1435000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1c      
+  ReadAddr2  integral             5     'h1f      
+  WriteAddr  integral             5     'h8       
+  WriteData  integral             32    'hc89ca6d7
+  ReadData1  integral             32    'h1c      
+  ReadData2  integral             32    'h0       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1729     
+  ReadAddr1   integral             5     'h1c      
+  ReadAddr2   integral             5     'h1f      
+  WriteAddr   integral             5     'h8       
+  WriteData   integral             32    'hc89ca6d7
+  ReadData1   integral             32    'h1c      
+  ReadData2   integral             32    'h0       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1435000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1455000: uvm_test_top.e0.sb0 [SCOREBOARD]         28,         28,          0 ,         0
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1455000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hc       
+  ReadAddr2  integral             5     'h3       
+  WriteAddr  integral             5     'h10      
+  WriteData  integral             32    'hf82838a7
+  ReadData1  integral             32    'hc       
+  ReadData2  integral             32    'h3       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1741     
+  ReadAddr1   integral             5     'hc       
+  ReadAddr2   integral             5     'h3       
+  WriteAddr   integral             5     'h10      
+  WriteData   integral             32    'hf82838a7
+  ReadData1   integral             32    'hc       
+  ReadData2   integral             32    'h3       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1455000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1475000: uvm_test_top.e0.sb0 [SCOREBOARD]         12,         12,          3 ,         3
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1475000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hf       
+  ReadAddr2  integral             5     'h2       
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'h23107de8
+  ReadData1  integral             32    'hf       
+  ReadData2  integral             32    'h2       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1753     
+  ReadAddr1   integral             5     'hf       
+  ReadAddr2   integral             5     'h2       
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'h23107de8
+  ReadData1   integral             32    'hf       
+  ReadData2   integral             32    'h2       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1475000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1495000: uvm_test_top.e0.sb0 [SCOREBOARD]         15,         15,          2 ,         2
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1495000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1e      
+  ReadAddr2  integral             5     'h1       
+  WriteAddr  integral             5     'h1f      
+  WriteData  integral             32    'hd892b0e9
+  ReadData1  integral             32    'h1e      
+  ReadData2  integral             32    'h1       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1765     
+  ReadAddr1   integral             5     'h1e      
+  ReadAddr2   integral             5     'h1       
+  WriteAddr   integral             5     'h1f      
+  WriteData   integral             32    'hd892b0e9
+  ReadData1   integral             32    'h1e      
+  ReadData2   integral             32    'h1       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1495000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1515000: uvm_test_top.e0.sb0 [SCOREBOARD]         30,         30,          1 ,         1
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1515000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h4       
+  ReadAddr2  integral             5     'h5       
+  WriteAddr  integral             5     'h5       
+  WriteData  integral             32    'h3f901c3c
+  ReadData1  integral             32    'h4       
+  ReadData2  integral             32    'h5       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1777     
+  ReadAddr1   integral             5     'h4       
+  ReadAddr2   integral             5     'h5       
+  WriteAddr   integral             5     'h5       
+  WriteData   integral             32    'h3f901c3c
+  ReadData1   integral             32    'h4       
+  ReadData2   integral             32    'h5       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1515000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1535000: uvm_test_top.e0.sb0 [SCOREBOARD]          4,          4,          5 ,         5
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1535000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h2       
+  ReadAddr2  integral             5     'he       
+  WriteAddr  integral             5     'h1d      
+  WriteData  integral             32    'hdd1c5dfd
+  ReadData1  integral             32    'h2       
+  ReadData2  integral             32    'he       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1789     
+  ReadAddr1   integral             5     'h2       
+  ReadAddr2   integral             5     'he       
+  WriteAddr   integral             5     'h1d      
+  WriteData   integral             32    'hdd1c5dfd
+  ReadData1   integral             32    'h2       
+  ReadData2   integral             32    'he       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1535000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1555000: uvm_test_top.e0.sb0 [SCOREBOARD]          2,          2,         14 ,        14
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1555000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+-------------------------------------------------
+Name         Type                 Size  Value    
+-------------------------------------------------
+act_tran     regfile_transaction  -     @592     
+  ReadAddr1  integral             5     'h2      
+  ReadAddr2  integral             5     'h13     
+  WriteAddr  integral             5     'hb      
+  WriteData  integral             32    'h444ad0f
+  ReadData1  integral             32    'h2      
+  ReadData2  integral             32    'h13     
+  RegWrite   integral             1     'h1      
+-------------------------------------------------
+--------------------------------------------------
+Name          Type                 Size  Value    
+--------------------------------------------------
+req           regfile_transaction  -     @1801    
+  ReadAddr1   integral             5     'h2      
+  ReadAddr2   integral             5     'h13     
+  WriteAddr   integral             5     'hb      
+  WriteData   integral             32    'h444ad0f
+  ReadData1   integral             32    'h2      
+  ReadData2   integral             32    'h13     
+  RegWrite    integral             1     'h1      
+  begin_time  time                 64    1555000  
+--------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1575000: uvm_test_top.e0.sb0 [SCOREBOARD]          2,          2,         19 ,        19
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1575000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'ha       
+  ReadAddr2  integral             5     'h5       
+  WriteAddr  integral             5     'h11      
+  WriteData  integral             32    'h1230c6d4
+  ReadData1  integral             32    'ha       
+  ReadData2  integral             32    'h5       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1813     
+  ReadAddr1   integral             5     'ha       
+  ReadAddr2   integral             5     'h5       
+  WriteAddr   integral             5     'h11      
+  WriteData   integral             32    'h1230c6d4
+  ReadData1   integral             32    'ha       
+  ReadData2   integral             32    'h5       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1575000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1595000: uvm_test_top.e0.sb0 [SCOREBOARD]         10,         10,          5 ,         5
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1595000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h10      
+  WriteAddr  integral             5     'h3       
+  WriteData  integral             32    'hc2fd255e
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h10      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1825     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h10      
+  WriteAddr   integral             5     'h3       
+  WriteData   integral             32    'hc2fd255e
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h10      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1595000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1615000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,         16 ,        16
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1615000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'ha       
+  ReadAddr2  integral             5     'h1e      
+  WriteAddr  integral             5     'h17      
+  WriteData  integral             32    'hcc44d57e
+  ReadData1  integral             32    'ha       
+  ReadData2  integral             32    'h1e      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1837     
+  ReadAddr1   integral             5     'ha       
+  ReadAddr2   integral             5     'h1e      
+  WriteAddr   integral             5     'h17      
+  WriteData   integral             32    'hcc44d57e
+  ReadData1   integral             32    'ha       
+  ReadData2   integral             32    'h1e      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1615000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1635000: uvm_test_top.e0.sb0 [SCOREBOARD]         10,         10,         30 ,        30
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1635000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h11      
+  ReadAddr2  integral             5     'h9       
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'hea7a379a
+  ReadData1  integral             32    'h11      
+  ReadData2  integral             32    'h9       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1849     
+  ReadAddr1   integral             5     'h11      
+  ReadAddr2   integral             5     'h9       
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'hea7a379a
+  ReadData1   integral             32    'h11      
+  ReadData2   integral             32    'h9       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1635000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1655000: uvm_test_top.e0.sb0 [SCOREBOARD]         17,         17,          9 ,         9
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1655000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+-------------------------------------------------
+Name         Type                 Size  Value    
+-------------------------------------------------
+act_tran     regfile_transaction  -     @592     
+  ReadAddr1  integral             5     'h1d     
+  ReadAddr2  integral             5     'h18     
+  WriteAddr  integral             5     'h13     
+  WriteData  integral             32    'h3759ac5
+  ReadData1  integral             32    'h1d     
+  ReadData2  integral             32    'h18     
+  RegWrite   integral             1     'h1      
+-------------------------------------------------
+--------------------------------------------------
+Name          Type                 Size  Value    
+--------------------------------------------------
+req           regfile_transaction  -     @1861    
+  ReadAddr1   integral             5     'h1d     
+  ReadAddr2   integral             5     'h18     
+  WriteAddr   integral             5     'h13     
+  WriteData   integral             32    'h3759ac5
+  ReadData1   integral             32    'h1d     
+  ReadData2   integral             32    'h18     
+  RegWrite    integral             1     'h1      
+  begin_time  time                 64    1655000  
+--------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1675000: uvm_test_top.e0.sb0 [SCOREBOARD]         29,         29,         24 ,        24
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1675000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h19      
+  WriteAddr  integral             5     'h6       
+  WriteData  integral             32    'hf8f5a853
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h19      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1873     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h19      
+  WriteAddr   integral             5     'h6       
+  WriteData   integral             32    'hf8f5a853
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h19      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1675000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1695000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,         25 ,        25
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1695000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hf       
+  ReadAddr2  integral             5     'h14      
+  WriteAddr  integral             5     'h16      
+  WriteData  integral             32    'hf83ddf49
+  ReadData1  integral             32    'hf       
+  ReadData2  integral             32    'h14      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1885     
+  ReadAddr1   integral             5     'hf       
+  ReadAddr2   integral             5     'h14      
+  WriteAddr   integral             5     'h16      
+  WriteData   integral             32    'hf83ddf49
+  ReadData1   integral             32    'hf       
+  ReadData2   integral             32    'h14      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1695000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1715000: uvm_test_top.e0.sb0 [SCOREBOARD]         15,         15,         20 ,        20
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1715000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hd       
+  ReadAddr2  integral             5     'h17      
+  WriteAddr  integral             5     'hc       
+  WriteData  integral             32    'ha1ab7841
+  ReadData1  integral             32    'hd       
+  ReadData2  integral             32    'h17      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1897     
+  ReadAddr1   integral             5     'hd       
+  ReadAddr2   integral             5     'h17      
+  WriteAddr   integral             5     'hc       
+  WriteData   integral             32    'ha1ab7841
+  ReadData1   integral             32    'hd       
+  ReadData2   integral             32    'h17      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1715000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1735000: uvm_test_top.e0.sb0 [SCOREBOARD]         13,         13,         23 ,        23
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1735000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'he       
+  ReadAddr2  integral             5     'ha       
+  WriteAddr  integral             5     'h3       
+  WriteData  integral             32    'hf23650f8
+  ReadData1  integral             32    'he       
+  ReadData2  integral             32    'ha       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1909     
+  ReadAddr1   integral             5     'he       
+  ReadAddr2   integral             5     'ha       
+  WriteAddr   integral             5     'h3       
+  WriteData   integral             32    'hf23650f8
+  ReadData1   integral             32    'he       
+  ReadData2   integral             32    'ha       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1735000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1755000: uvm_test_top.e0.sb0 [SCOREBOARD]         14,         14,         10 ,        10
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1755000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h0       
+  ReadAddr2  integral             5     'h1f      
+  WriteAddr  integral             5     'h1e      
+  WriteData  integral             32    'hb270d600
+  ReadData1  integral             32    'h0       
+  ReadData2  integral             32    'h0       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1921     
+  ReadAddr1   integral             5     'h0       
+  ReadAddr2   integral             5     'h1f      
+  WriteAddr   integral             5     'h1e      
+  WriteData   integral             32    'hb270d600
+  ReadData1   integral             32    'h0       
+  ReadData2   integral             32    'h0       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1755000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1775000: uvm_test_top.e0.sb0 [SCOREBOARD]          0,          0,          0 ,         0
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1775000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'ha       
+  ReadAddr2  integral             5     'he       
+  WriteAddr  integral             5     'h1e      
+  WriteData  integral             32    'h3410c699
+  ReadData1  integral             32    'ha       
+  ReadData2  integral             32    'he       
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1933     
+  ReadAddr1   integral             5     'ha       
+  ReadAddr2   integral             5     'he       
+  WriteAddr   integral             5     'h1e      
+  WriteData   integral             32    'h3410c699
+  ReadData1   integral             32    'ha       
+  ReadData2   integral             32    'he       
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1775000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1795000: uvm_test_top.e0.sb0 [SCOREBOARD]         10,         10,         14 ,        14
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1795000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h14      
+  ReadAddr2  integral             5     'h13      
+  WriteAddr  integral             5     'h14      
+  WriteData  integral             32    'hb806cf82
+  ReadData1  integral             32    'h14      
+  ReadData2  integral             32    'h13      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1945     
+  ReadAddr1   integral             5     'h14      
+  ReadAddr2   integral             5     'h13      
+  WriteAddr   integral             5     'h14      
+  WriteData   integral             32    'hb806cf82
+  ReadData1   integral             32    'h14      
+  ReadData2   integral             32    'h13      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1795000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1815000: uvm_test_top.e0.sb0 [SCOREBOARD]         20,         20,         19 ,        19
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1815000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'he       
+  ReadAddr2  integral             5     'h11      
+  WriteAddr  integral             5     'h1f      
+  WriteData  integral             32    'h872e1783
+  ReadData1  integral             32    'he       
+  ReadData2  integral             32    'h11      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1957     
+  ReadAddr1   integral             5     'he       
+  ReadAddr2   integral             5     'h11      
+  WriteAddr   integral             5     'h1f      
+  WriteData   integral             32    'h872e1783
+  ReadData1   integral             32    'he       
+  ReadData2   integral             32    'h11      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1815000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1835000: uvm_test_top.e0.sb0 [SCOREBOARD]         14,         14,         17 ,        17
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1835000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h11      
+  ReadAddr2  integral             5     'h5       
+  WriteAddr  integral             5     'h1f      
+  WriteData  integral             32    'ha6cfe688
+  ReadData1  integral             32    'h11      
+  ReadData2  integral             32    'h5       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1969     
+  ReadAddr1   integral             5     'h11      
+  ReadAddr2   integral             5     'h5       
+  WriteAddr   integral             5     'h1f      
+  WriteData   integral             32    'ha6cfe688
+  ReadData1   integral             32    'h11      
+  ReadData2   integral             32    'h5       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1835000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1855000: uvm_test_top.e0.sb0 [SCOREBOARD]         17,         17,          5 ,         5
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1855000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h12      
+  ReadAddr2  integral             5     'h16      
+  WriteAddr  integral             5     'h1c      
+  WriteData  integral             32    'hca672372
+  ReadData1  integral             32    'h12      
+  ReadData2  integral             32    'h16      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1981     
+  ReadAddr1   integral             5     'h12      
+  ReadAddr2   integral             5     'h16      
+  WriteAddr   integral             5     'h1c      
+  WriteData   integral             32    'hca672372
+  ReadData1   integral             32    'h12      
+  ReadData2   integral             32    'h16      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1855000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1875000: uvm_test_top.e0.sb0 [SCOREBOARD]         18,         18,         22 ,        22
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1875000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h2       
+  ReadAddr2  integral             5     'h1b      
+  WriteAddr  integral             5     'hd       
+  WriteData  integral             32    'h218ac473
+  ReadData1  integral             32    'h2       
+  ReadData2  integral             32    'h1b      
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @1993     
+  ReadAddr1   integral             5     'h2       
+  ReadAddr2   integral             5     'h1b      
+  WriteAddr   integral             5     'hd       
+  WriteData   integral             32    'h218ac473
+  ReadData1   integral             32    'h2       
+  ReadData2   integral             32    'h1b      
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1875000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1895000: uvm_test_top.e0.sb0 [SCOREBOARD]          2,          2,         27 ,        27
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1895000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h14      
+  ReadAddr2  integral             5     'h16      
+  WriteAddr  integral             5     'h9       
+  WriteData  integral             32    'hcdccbe7d
+  ReadData1  integral             32    'h14      
+  ReadData2  integral             32    'h16      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @2005     
+  ReadAddr1   integral             5     'h14      
+  ReadAddr2   integral             5     'h16      
+  WriteAddr   integral             5     'h9       
+  WriteData   integral             32    'hcdccbe7d
+  ReadData1   integral             32    'h14      
+  ReadData2   integral             32    'h16      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1895000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1915000: uvm_test_top.e0.sb0 [SCOREBOARD]         20,         20,         22 ,        22
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1915000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h12      
+  ReadAddr2  integral             5     'h10      
+  WriteAddr  integral             5     'h3       
+  WriteData  integral             32    'hd561483e
+  ReadData1  integral             32    'h12      
+  ReadData2  integral             32    'h10      
+  RegWrite   integral             1     'h1       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @2017     
+  ReadAddr1   integral             5     'h12      
+  ReadAddr2   integral             5     'h10      
+  WriteAddr   integral             5     'h3       
+  WriteData   integral             32    'hd561483e
+  ReadData1   integral             32    'h12      
+  ReadData2   integral             32    'h10      
+  RegWrite    integral             1     'h1       
+  begin_time  time                 64    1915000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1935000: uvm_test_top.e0.sb0 [SCOREBOARD]         18,         18,         16 ,        16
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1935000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h17      
+  ReadAddr2  integral             5     'h8       
+  WriteAddr  integral             5     'h4       
+  WriteData  integral             32    'ha26911df
+  ReadData1  integral             32    'h17      
+  ReadData2  integral             32    'h8       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @2029     
+  ReadAddr1   integral             5     'h17      
+  ReadAddr2   integral             5     'h8       
+  WriteAddr   integral             5     'h4       
+  WriteData   integral             32    'ha26911df
+  ReadData1   integral             32    'h17      
+  ReadData2   integral             32    'h8       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1935000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1955000: uvm_test_top.e0.sb0 [SCOREBOARD]         23,         23,          8 ,         8
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1955000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'hb       
+  ReadAddr2  integral             5     'hf       
+  WriteAddr  integral             5     'hb       
+  WriteData  integral             32    'hfef8cb76
+  ReadData1  integral             32    'hb       
+  ReadData2  integral             32    'hf       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @2041     
+  ReadAddr1   integral             5     'hb       
+  ReadAddr2   integral             5     'hf       
+  WriteAddr   integral             5     'hb       
+  WriteData   integral             32    'hfef8cb76
+  ReadData1   integral             32    'hb       
+  ReadData2   integral             32    'hf       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1955000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1975000: uvm_test_top.e0.sb0 [SCOREBOARD]         11,         11,         15 ,        15
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1975000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'he       
+  ReadAddr2  integral             5     'h0       
+  WriteAddr  integral             5     'h4       
+  WriteData  integral             32    'hd4d74d41
+  ReadData1  integral             32    'he       
+  ReadData2  integral             32    'h0       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @2053     
+  ReadAddr1   integral             5     'he       
+  ReadAddr2   integral             5     'h0       
+  WriteAddr   integral             5     'h4       
+  WriteData   integral             32    'hd4d74d41
+  ReadData1   integral             32    'he       
+  ReadData2   integral             32    'h0       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1975000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 1995000: uvm_test_top.e0.sb0 [SCOREBOARD]         14,         14,          0 ,         0
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 1995000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+--------------------------------------------------
+Name         Type                 Size  Value     
+--------------------------------------------------
+act_tran     regfile_transaction  -     @592      
+  ReadAddr1  integral             5     'h1b      
+  ReadAddr2  integral             5     'h1       
+  WriteAddr  integral             5     'h5       
+  WriteData  integral             32    'h9f057cc2
+  ReadData1  integral             32    'h1b      
+  ReadData2  integral             32    'h1       
+  RegWrite   integral             1     'h0       
+--------------------------------------------------
+---------------------------------------------------
+Name          Type                 Size  Value     
+---------------------------------------------------
+req           regfile_transaction  -     @2065     
+  ReadAddr1   integral             5     'h1b      
+  ReadAddr2   integral             5     'h1       
+  WriteAddr   integral             5     'h5       
+  WriteData   integral             32    'h9f057cc2
+  ReadData1   integral             32    'h1b      
+  ReadData2   integral             32    'h1       
+  RegWrite    integral             1     'h0       
+  begin_time  time                 64    1995000   
+---------------------------------------------------
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(59) @ 2015000: uvm_test_top.e0.sb0 [SCOREBOARD]         27,         27,          1 ,         1
+UVM_INFO D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv(63) @ 2015000: uvm_test_top.e0.sb0 [SCOREBOARD] CORRECT
+UVM_INFO D:/App/Vivado/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 2015000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+-------------------------------------------------
+---------- INFO : TEST CASE PASSED --------------
+-------------------------------------------------
+UVM_INFO D:/App/Vivado/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 2015000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  204
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SCOREBOARD]   200
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 2015 ns : File "D:/App/Vivado/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699

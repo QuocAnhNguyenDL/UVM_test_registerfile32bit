@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../UVM_Register.srcs/sources_1/imports/DUT/Registers.v" \
+
+sv xil_defaultlib  \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/top.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_transaction.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_env.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_test.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_monitor.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_interface.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_model.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_refmodel.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_sequencer.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_sequence.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_driver.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/reg32bit.sv" \
+"../../../../UVM_Register.srcs/sim_1/imports/Verify/regfile_agent.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

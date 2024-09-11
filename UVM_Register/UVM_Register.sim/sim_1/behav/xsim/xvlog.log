@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_scoreboard.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_transaction.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_env.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_refmodel.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_sequencer.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_sequence.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_driver.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/reg32bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Project/UVM/Register/UVM_Register/UVM_Register.srcs/sim_1/imports/Verify/regfile_agent.sv" into library xil_defaultlib
